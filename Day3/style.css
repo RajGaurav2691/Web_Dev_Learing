@@ -1,0 +1,28 @@
+/* 
+Main Selector
+
+1. Type (Element) Selectors: Target HTML elements based on their tag name (e.g., p, h1, div).
+2. Class Selectors: Target HTML elements that have a specific class attribute (e.g., .my-class).
+3. ID Selectors: Target a single, unique HTML element using its id attribute (e.g., #my-id).
+4. Universal Selector: Selects all HTML elements on a page (e.g., *).
+
+Other Selector
+
+5. Attribute Selectors: Target HTML elements based on the presence or specific value of an attribute (e.g., [type="text"], [data-info]).
+6. Pseudo-classes: Target elements based on their state or position within the document (e.g., :hover, :focus, :first-child, :nth-child()).
+7. Pseudo-elements: Target a specific part of an element (e.g., ::before, ::after, ::first-line, ::first-letter).
+8. Combinators: Define relationships between selectors to target elements based on their position relative to other elements in the document tree:
+
+Power of Styling or Selector (in decreasing order)
+
+Inline <-- Id <-- Class <-- Element
+
+*/
+
+.second{
+    text-align: center;
+}
+
+#first{
+    background-color: pink;
+}
