@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Form</title>
+</head>
+<body>
+    <form >
+        <table>
+            <tr>
+                <td><label for="name">Name :</label></td>
+                <td><input type="text" name="userName" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age :</label></td>
+                <td><input type="text" name="userAge" id="age"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password  :</label></td>
+                <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender : </label></td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="male" id="male"> 
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="female" id="female"> 
+                </td>
+            </tr>
+            <tr>
+                <td><label for="languages">Languages : </label></td>
+                <td>
+                    <label for="c++">C++</label>
+                    <input type="checkbox" name="subject" id="c++" value="c++">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="subject" id="java" value="java">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="subject" id="python" value="python">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+http://127.0.0.1:5500/Day4/form.html?userName=&userAge=&pass=&gender=on
+http://127.0.0.1:5500/Day4/form.html?userName=&userAge=&pass=&gender=male
+http://127.0.0.1:5500/Day4/form.html?userName=raj&userAge=21&pass=edc&gender=male&subject=on
