@@ -1,0 +1,39 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.item1{
+    background-color: aquamarine;
+}
+.item2{
+    background-color: rgb(142, 156, 151);
+}
+.item3{
+    background-color: rgb(19, 253, 175);
+}
+.item4{
+    background-color: rgb(34, 50, 12);
+}
+.item5{
+    background-color: rgb(172, 51, 151);
+}
+.item6{
+    background-color: rgb(168, 165, 40);
+}
+.item7{
+    background-color: rgb(90, 88, 207);
+}
+.item8{
+    background-color: rgb(129, 81, 42);
+}
+.item9{
+    background-color: aquamarine;
+}
+.item10{
+    background-color: aquamarine;
+}
