@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+.j{
+    background-color: white;
+    position: relative;
+    left: 650px;
+
+}
+.s{
+    background-color: white;
+    position: relative;
+    left: 650px;
+    top: 150px;
+}
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 600px;
+    top: 100px;
+    border-radius: 10px;
+
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    
+}
+#container2{
+    height: 200px;
+    width: 300px;
+    background-color: #005293;
+    position: relative;
+    left: 600px;
+    top: 200px;
+    border-radius: 10px;
+}
+/*
+#container2 {
+    position: relative;
+    width: 300px;
+    height: 180px;
+    background: #005cbf; 
+    margin-bottom: 30px;
+}
+*/
+
+.Sweden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Vertical yellow stripe */
+.Sweden::before {
+    content: "";
+    position: absolute;
+    left: 80px;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    background: #ffce00; /* Sweden yellow */
+}
+
+/* Horizontal yellow stripe */
+.Sweden::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: 40px;
+    background: #ffce00;
+}
