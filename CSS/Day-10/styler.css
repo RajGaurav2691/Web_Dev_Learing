@@ -1,0 +1,218 @@
+body{
+    background-color: rgb(3, 3, 3);
+}
+.container{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: repeat(8, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0px;
+    background-color: rgb(190, 206, 190);
+    height: 800px;
+    width: 800px;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: rgb(116, 255, 116);
+}
+/*
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.one{
+    background-color: black;
+}
+.two{
+    background-color: white;
+}
+.three{
+    background-color: black;
+}
+.four{
+    background-color: white;
+}
+.five{
+    background-color: black;
+}
+.six{
+    background-color: white;
+}
+.seven{
+    background-color: black;
+}
+.eight{
+    background-color: white;
+}
+.nine{
+    background-color: white;
+}
+.ten{
+    background-color: black;
+}
+.eleven{
+    background-color: white;
+}
+.twelve{
+    background-color: black;
+}
+.thirteen{
+    background-color: white;
+}
+.fourteen{
+    background-color: black;
+}
+.fifteen{
+    background-color: white;
+}
+.sixteen{
+    background-color: black;
+}
+.seventeen{
+    background-color: black;
+}
+.eighteen{
+    background-color: white;
+}
+.nineteen{
+    background-color: black;
+}
+.twenty{
+    background-color: white;
+}
+.twentyone{
+    background-color: black;
+}
+.twentytwo{
+    background-color: white;
+}
+.twentythree{
+    background-color: black;
+}
+.twentyfour{
+    background-color: white;
+}
+.twentyfive{
+    background-color: white;
+}
+.twentysix{
+    background-color: black;
+}
+.twentyseven{
+    background-color: white;
+}
+.twentyeight{
+    background-color: black;
+}
+.twentynine{
+    background-color: white;
+}
+.thirty{
+    background-color: black;
+}
+.thirtyone{
+    background-color: white;
+}
+.thirtytwo{
+    background-color: black;
+}
+.thirtythree{
+    background-color: black;
+}
+.thirtyfour{
+    background-color: white;
+}
+.thirtyfive{
+    background-color: black;
+}
+.thirtysix{
+    background-color: white;
+}
+.thirtyseven{
+    background-color: black;
+}
+.thirtyeight{
+    background-color: white;
+}
+.thirtynine{
+    background-color: black;
+}
+.forty{
+    background-color: white;
+}
+.fortyone{
+    background-color: white;
+}
+.fortytwo{
+    background-color: black;
+}
+.fortythree{
+    background-color: white;
+}
+.fortyfour{
+    background-color: black;
+}
+.fortyfive{
+    background-color: white;
+}
+.fortysix{
+    background-color: black;
+}
+.fortyseven{
+    background-color: white;
+}
+.fortyeight{
+    background-color: black;
+}
+.fortynine{
+    background-color: black;
+}
+.fifty{
+    background-color: white;
+}
+.fiftyone{
+    background-color: black;
+}
+.fiftytwo{
+    background-color: white;
+}
+.fiftythree{
+    background-color: black;
+}
+.fiftyfour{
+    background-color: white;
+}
+.fiftyfive{
+    background-color: black;
+}
+.fiftysix{
+    background-color: white;
+}
+.fiftyseven{
+    background-color: white;
+}
+.fiftyeight{
+    background-color: black;
+}
+.fiftynine{
+    background-color: white;
+}
+.sixty{
+    background-color: black;
+}
+.sixtyone{
+    background-color: white;
+}
+.sixtytwo{
+    background-color: black;
+}
+.sixtythree{
+    background-color: white;
+}
+.sixtyfour{
+    background-color: black;
+} */
